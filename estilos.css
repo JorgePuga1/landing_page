@@ -32,5 +32,39 @@ header{
     display: flex;
     align-items: center;
     margin: auto;
-  
+    justify-content: space-around;
+}
+img{
+    display: block;
+    height: 450px;
+    object-fit: cover;
+    width: auto;
+}
+.textos{
+    width: 50%;
+    color: #fff;
+}
+.textos h1{
+    font-size:80px ;
+}
+.textos h2{
+    font-size: 30px;
+}
+.textos a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+}
+.wave{
+    height: 100px;
+    width: 100%;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
